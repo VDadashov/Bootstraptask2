@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1050px;
+    margin: auto;
+}
+
+
+/* header css start */
+
+header{
+    background-color: rgb(41, 84, 41);
+}
+
+header ul li {
+    display: inline;
+    margin-left: 30px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.hamburger i{
+    font-size: 30px;
+    color: #fff;
+}
+
+/* header-css-end */
+
+/* section-css-start */
+
+.section-one{
+    background-color: #eee;
+}
+
+.section-one h2{
+    text-align: center;
+}
+
+.section-one .custom-card{
+    box-shadow: 0 3px 5px 0 rgb(95, 92, 92);
+}
+
+/* section-css-end */
+
+
+.section-two{
+    background-color: #ccc;
+}
+
+.section-three{
+    background-color: #ccc;
+}
+
+.section-three .card img{
+    height: 166px;
+}
+
+.section-four{
+    background-color: #ccc;
+}
+
+.section-four .btn{
+    width: 80%;
+    color: #ccc;
+}
+
+.section-four .border-show{
+    border-right: 1px solid rgb(117, 146, 125);
+}
+
+.section-four .border-show:nth-last-child(1){
+    border-right: none;
+}
+
+footer{
+    background-color: #44544b;
+}
+
+footer a i{
+    font-size: 18px;
+    margin-right: 3px;
+    color: #ccc;
+}
+
+footer a:nth-child(1) i:hover{
+    color: #2d2482;
+}
+
+footer a:nth-child(2) i:hover{
+    color: #5d85c2;
+}
+
+footer a:nth-child(3) i:hover{
+    color: #c43f3f;
+}
+
+footer a:nth-child(4) i:hover{
+    color: #863b3b;
+}
+
+footer p{
+    color: #ccc;
+}
+
+
+@media (max-width:992px) {
+
+    .section-three .show img{
+        height: 190px !important;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .section-three .show{
+        margin-bottom: 20px;
+        width: 20rem !important;
+    }
+}
+
+
+@media (max-width:768px) {
+    .section-three .show img{
+        height: 250px !important;
+        object-fit: cover;
+    }
+
+    .section-three .show{
+        width: 25rem !important;
+        height: 29rem !important;
+    }
+}
+
+@media (max-width:576px){
+    header img{
+        width: 220px !important;
+    }
+
+    .section-three .show img{
+        height: 230px !important;
+        object-fit: cover;
+    }
+
+    .section-three .show{
+        width: 19rem !important;
+        height: 31rem !important;
+    }
+}
+
+@media (max-width:280px){
+
+}
+
