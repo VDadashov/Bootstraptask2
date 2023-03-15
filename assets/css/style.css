@@ -56,6 +56,10 @@ header ul li a{
     background-color: #ccc;
 }
 
+.section-two .custom{
+    border-right: 1px solid #fff;
+}
+
 .section-three{
     background-color: #ccc;
 }
@@ -124,6 +128,11 @@ footer p{
         margin-bottom: 20px;
         width: 20rem !important;
     }
+
+    .section-two .custom{
+        border-right: none;
+        border-bottom: 1px solid #fff;
+    }
 }
 
 
@@ -137,6 +146,7 @@ footer p{
         width: 25rem !important;
         height: 29rem !important;
     }
+
 }
 
 @media (max-width:576px){
